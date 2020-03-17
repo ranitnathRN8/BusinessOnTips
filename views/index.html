@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Freelance Mantra</title>
+    <link rel="stylesheet" href="../public/css/main.css" />
+
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src="../index.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Left column section -->
+
+      <div class="left-col">
+        <div class="logo">
+          <a href=""><img src="../public/assets/logo.png"/></a>
+        </div>
+        <div class="joins">
+          <a class="sign" href="">Sign-in</a>
+          <a class="sign" href="">Sign-up</a>
+        </div>
+
+        <div class="cover"></div>
+
+        <div class="data">
+          <div class="album-name">
+            <p id="name">Freelancer Mantra</p>
+          </div>
+
+          <div class="album-artist">
+            <p id="artist">ONE STOP ACCESS TO ALL YOUR DEVELOPMENT NEEDS</p>
+          </div>
+        </div>
+
+        <!-- Social media follow section -->
+        <div class="media">
+          <p>CONTACT US:</p>
+
+          <ul>
+            <li>
+              <a href="http://instagram.com/freelancemantra"
+                ><ion-icon name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="http://www.facebook.com/freelancemantra"
+                ><ion-icon name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/freelancemantra"
+                ><ion-icon name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+            <li><ion-icon name="logo-whatsapp"></ion-icon></li>
+          </ul>
+        </div>
+
+        <div class="block-cover"></div>
+      </div>
+
+      <!-- Left column section -->
+      <!-- For the righthand side top column -->
+
+      <div class="right-col">
+        <div class="upper">
+          <div class="about">
+            <h1><a href="./blog.html">Explore the feed</a></h1>
+            <div class="parts">
+              <div class="part1">
+                <div class="elementa1">
+                  <p>
+                    <ion-icon name="book-outline"></ion-icon> &nbsp;<span
+                      ><a href="./blog.html">Recent Questions</a></span
+                    >
+                  </p>
+                </div>
+
+                <div class="elementa2">
+                  <p>
+                    <ion-icon name="duplicate-outline"></ion-icon> &nbsp;<span
+                      ><a href="./blog.html">Most Answered</a></span
+                    >
+                  </p>
+                </div>
+
+                <div class="elementa3">
+                  <p>
+                    <ion-icon name="eye-outline"></ion-icon> &nbsp;<span
+                      ><a href="./blog.html">Most Visited</a></span
+                    >
+                  </p>
+                </div>
+
+                <div class="elementa4">
+                  <p>
+                    <ion-icon name="cellular-outline"></ion-icon> &nbsp;<span
+                      ><a href="./blog.html">Most Voted</a></span
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="part2">
+                <div class="elementa1">
+                  <p>
+                    <ion-icon name="alert-circle-outline"></ion-icon>
+                    &nbsp;<span><a href="./blog.html">No Answers</a></span>
+                  </p>
+                </div>
+
+                <div class="elementa2">
+                  <p>
+                    <ion-icon name="chatbubbles-outline"></ion-icon> &nbsp;<span
+                      ><a href="./blog.html">Questions For You</a></span
+                    >
+                  </p>
+                </div>
+
+                <div class="elementa3">
+                  <p>
+                    <ion-icon name="megaphone-outline"></ion-icon> &nbsp;<span
+                      ><a href="./blog.html">Polls</a></span
+                    >
+                  </p>
+                </div>
+
+                <div class="elementa4">
+                  <p>
+                    <ion-icon name="star-outline"></ion-icon> &nbsp;<span
+                      ><a href="./blog.html">Favourite Questions</a></span
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="upper-block"></div>
+
+        <div class="bottom">
+          <!-- <div class="more">
+            <p id="more">More like this</p>
+          </div> -->
+        </div>
+        <div class="block-bottom">
+          <div class="data2">
+            <div class="album-name3">
+              <p id="name">View the categories</p>
+            </div>
+
+            <div class="album-artist3">
+              <p id="artist">in Freelancer Mantra</p>
+            </div>
+            <!-- <ion-icon
+              class="show"
+              name="arrow-forward-circle-outline"
+            ></ion-icon> -->
+            <div class="show">
+              <a href="../views/blog.html#categories-section"
+                ><span class="arr0w-svg"></span>
+                <!-- <img
+                  src="../public/assets/arrow-forward-circle-outline 1.svg"
+                /> -->
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Setting up Greensock animation codes -->
+
+    <script type="text/javascript">
+      TweenMax.from(".left-col", 2, {
+        width: "0%",
+        ease: Expo.easeInOut
+      });
+
+      TweenMax.from(".joins", 2, {
+        delay: 2.5,
+        y: 20,
+        opacity: 0,
+        ease: Expo.easeInOut
+      });
+
+      TweenMax.from(".logo", 2, {
+        delay: 2.5,
+        y: 20,
+        opacity: 0,
+        ease: Expo.easeInOut
+      });
+
+      TweenMax.from(".buy", 2, {
+        delay: 2.8,
+        y: 20,
+        opacity: 0,
+        ease: Expo.easeInOut
+      });
+
+      TweenMax.from(".year", 2, {
+        delay: 3.1,
+        y: 20,
+        opacity: 0,
+        ease: Expo.easeInOut
+      });
+
+      TweenMax.from(".album-name", 2, {
+        delay: 2.4,
+        y: 20,
+        opacity: 0,
+        ease: Expo.easeInOut
+      });
+
+      TweenMax.from(".album-artist", 2, {
+        delay: 2.6,
+        y: 20,
+        opacity: 0,
+        ease: Expo.easeInOut
+      });
+
+      TweenMax.from(".about h1", 2, {
+        delay: 3,
+        y: 20,
+        opacity: 0,
+        ease: Expo.easeInOut
+      });
+
+      TweenMax.from(".elementa1", 2, {
+        delay: 3.2,
+        y: 20,
+        opacity: 0,
+        ease: Expo.easeInOut
+      });
+
+      TweenMax.from(".elementa2", 2, {
+        delay: 3.4,
+        y: 20,
+        opacity: 0,
+        ease: Expo.easeInOut
+      });
+
+      TweenMax.from(".elementa3", 2, {
+        delay: 3.6,
+        y: 20,
+        opacity: 0,
+        ease: Expo.easeInOut
+      });
+
+      TweenMax.from(".elementa4", 2, {
+        delay: 3.8,
+        y: 20,
+        opacity: 0,
+        ease: Expo.easeInOut
+      });
+
+      TweenMax.from(".media p", 2, {
+        delay: 3.6,
+        y: 20,
+        opacity: 0,
+        ease: Expo.easeInOut
+      });
+
+      TweenMax.staggerFrom(
+        ".media ul li",
+        2,
+        {
+          delay: 3.8,
+          opacity: 0,
+          y: 20,
+          ease: Expo.easeInOut
+        },
+        0.1
+      );
+
+      TweenMax.from(".album-name3", 2, {
+        delay: 4,
+        y: 20,
+        opacity: 0,
+        ease: Expo.easeInOut
+      });
+
+      TweenMax.from(".album-artist3", 2, {
+        delay: 4.2,
+        y: 20,
+        opacity: 0,
+        ease: Expo.easeInOut
+      });
+
+      TweenMax.from(".show", 2, {
+        delay: 4.4,
+        y: 20,
+        opacity: 0,
+        ease: Expo.easeInOut
+      });
+
+      TweenMax.from(".more", 2, {
+        delay: 4.6,
+        y: 20,
+        opacity: 0,
+        ease: Expo.easeInOut
+      });
+    </script>
+  </body>
+</html>
