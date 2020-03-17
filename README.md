@@ -15,7 +15,11 @@ Before you begin, ensure you have met the following requirements:
    * Copy the entire font-awesome directory into your project.
    * In the <head> of your html, reference the location to your font-awesome.min.css. 
    * `<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">`
-2. 
+   * The html files already contain a path to the css file which can be further modified.
+2. Using `Ionicons`
+   * Copy the script tag into the <head> of the html document.
+   * `<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>`
+   * The html files already contain the associated script tag.
 * You have installed the latest version of `<coding_language/dependency/requirement_1>`
 * You have a `<Windows/Linux/Mac>` machine. State which OS is supported/which is not.
 * You have read `<guide/link/documentation_related_to_project>`.
