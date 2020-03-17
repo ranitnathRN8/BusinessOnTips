@@ -17,11 +17,9 @@ Before you begin, ensure you have met the following requirements: (These have al
    * Copy the entire font-awesome directory into your project.
    * In the <head> of your html, reference the location to your font-awesome.min.css. 
    * `<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">`
-   * The html files already contain a path to the css file which can be further modified.
 3. Using [Ionicons](https://ionicons.com/usage)
    * Copy the script tag into the <head> of the html document.
    * `<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>`
-   * The html files already contain the associated script tag.
 4. Using [Owl Carousel](https://owlcarousel2.github.io/OwlCarousel2/docs/started-installation.html)
    * In the <head> of your html, reference the location to your owl carousel css files.
    * `<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">`
@@ -34,9 +32,8 @@ Before you begin, ensure you have met the following requirements: (These have al
    * Include link to the js file in the footer
    * `<script src="path/to/js/aos.js"></script>`
 6. Using [TweenMax](https://greensock.com/tweenmax/) for GSAP animations 
-* You have installed the latest version of `<coding_language/dependency/requirement_1>`
-* You have a `<Windows/Linux/Mac>` machine. State which OS is supported/which is not.
-* You have read `<guide/link/documentation_related_to_project>`.
+   * Include the <script> tag in the <head> of your html
+   * `<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>`
 
 ## Installing <project_name>
 
