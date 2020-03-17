@@ -12,9 +12,9 @@ Additional line of information text about what the project does. Your introducti
 Before you begin, ensure you have met the following requirements:
 <!--- These are just example requirements. Add, duplicate or remove as required --->
 1. Using `Font Awesome Icons`
-  *Tabspace*  Copy the entire font-awesome directory into your project.
-  *Tabspace*  In the <head> of your html, reference the location to your font-awesome.min.css. 
-  *Tabspace*  `<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">`
+   1.1. Copy the entire font-awesome directory into your project.
+   1.2. In the <head> of your html, reference the location to your font-awesome.min.css. 
+   1.3. `<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">`
 * You have installed the latest version of `<coding_language/dependency/requirement_1>`
 * You have a `<Windows/Linux/Mac>` machine. State which OS is supported/which is not.
 * You have read `<guide/link/documentation_related_to_project>`.
