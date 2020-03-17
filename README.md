@@ -5,21 +5,35 @@
 
 BusinessOnTips Intern Selection Project is a `landing page` designed for the company, `Freelancer Mantra` as a part of the internship selection process by `BusinessOnTips`.
 
-Additional line of information text about what the project does. Your introduction should be around 2 or 3 sentences. Don't go overboard, people won't read it.
+The project consists of an initial landing page, which is pointed to by the html document, `index.html` and the next page is pointed by `blog.html` which replicates the basic business model of `Freelancer Mantra`.
 
 ## Prerequisites
 
-Before you begin, ensure you have met the following requirements:
+Before you begin, ensure you have met the following requirements: (These have already been done in the created html files)
 <!--- These are just example requirements. Add, duplicate or remove as required --->
-1. Using `Font Awesome Icons`
+1. Include the location to the jQuery file in the footer
+   * `<script src="path/to/Jquery3.4.1.min.js"></script>`
+2. Using `Font Awesome Icons` (`https://fontawesome.com/v4.7.0/get-started/`)
    * Copy the entire font-awesome directory into your project.
    * In the <head> of your html, reference the location to your font-awesome.min.css. 
    * `<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">`
    * The html files already contain a path to the css file which can be further modified.
-2. Using `Ionicons`
+3. Using `Ionicons` (`https://ionicons.com/usage`)
    * Copy the script tag into the <head> of the html document.
    * `<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>`
    * The html files already contain the associated script tag.
+4. Using `Owl Carousel` (`https://owlcarousel2.github.io/OwlCarousel2/docs/started-installation.html`)
+   * In the <head> of your html, reference the location to your owl carousel css files.
+   * `<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">`
+   * `<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">`
+   * Include link to the js file in the footer
+   * `<script src="path/to/js/owl.carousel.min.js"></script>`
+5. Using `AOS Library` (`https://michalsnik.github.io/aos/`)
+   * In the <head> of your html, reference the location to your AOS Library css files.
+   * `<link rel="stylesheet" href="path/to/aos-library/aos.css" />`
+   * Include link to the js file in the footer
+   * `<script src="path/to/js/aos.js"></script>`
+6. Using `TweenMax` for GSAP animations (`https://greensock.com/tweenmax/`)
 * You have installed the latest version of `<coding_language/dependency/requirement_1>`
 * You have a `<Windows/Linux/Mac>` machine. State which OS is supported/which is not.
 * You have read `<guide/link/documentation_related_to_project>`.
