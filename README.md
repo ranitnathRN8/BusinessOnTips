@@ -13,7 +13,7 @@ Before you begin, ensure you have met the following requirements: (These have al
 <!--- These are just example requirements. Add, duplicate or remove as required --->
 1. Include the location to the jQuery file in the footer
    * `<script src="path/to/Jquery3.4.1.min.js"></script>`
-2. Using `Font Awesome Icons` (`https://fontawesome.com/v4.7.0/get-started/`)
+2. Using <Font Awesome Icons>(https://fontawesome.com/v4.7.0/get-started/)
    * Copy the entire font-awesome directory into your project.
    * In the <head> of your html, reference the location to your font-awesome.min.css. 
    * `<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">`
