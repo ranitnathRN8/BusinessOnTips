@@ -1,0 +1,19 @@
+{
+  "name": "intern_project",
+  "version": "1.0.0",
+  "description": "Internship project for BusinessOnTips",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranitnathRN8/BusinessOnTips.git"
+  },
+  "author": "Ranit Nath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ranitnathRN8/BusinessOnTips/issues"
+  },
+  "homepage": "https://github.com/ranitnathRN8/BusinessOnTips#readme"
+}
