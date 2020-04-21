@@ -1,4 +1,4 @@
-# BusinessOnTips Intern Selection Project
+# BusinessOnTips Project
 
 BusinessOnTips Intern Selection Project is a `landing page` designed for the company, `Freelancer Mantra` as a part of the internship selection process by `BusinessOnTips`.
 
